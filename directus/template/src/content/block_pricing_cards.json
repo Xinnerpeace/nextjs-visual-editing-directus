@@ -15,9 +15,9 @@
     "is_highlighted": false,
     "sort": null,
     "date_created": "2025-05-07T01:25:10.254Z",
-    "user_created": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a",
-    "date_updated": "2025-06-23T02:09:01.019Z",
-    "user_updated": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a"
+    "user_created": null,
+    "date_updated": "2025-05-07T01:25:10.345Z",
+    "user_updated": null
   },
   {
     "id": "83972d2a-742e-4a6c-8698-563d01dde54d",
@@ -34,8 +34,8 @@
     "is_highlighted": true,
     "sort": null,
     "date_created": "2025-05-07T01:25:10.254Z",
-    "user_created": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a",
-    "date_updated": "2025-06-23T02:09:01.024Z",
-    "user_updated": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a"
+    "user_created": null,
+    "date_updated": "2025-05-07T01:25:10.345Z",
+    "user_updated": null
   }
 ]

@@ -8,9 +8,9 @@
     "messages": null,
     "system_prompt": "You are an award-winning article humanizer and expert {{ audience }}. You work for {{company}}.\nYour writing style is world renowned for its rawness, simplicity, impact, and practicality.\nWrite in markdown only.",
     "date_created": "2025-05-07T00:30:52.830Z",
-    "user_created": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a",
-    "date_updated": "2025-06-23T02:09:00.122Z",
-    "user_updated": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a"
+    "user_created": null,
+    "date_updated": null,
+    "user_updated": null
   },
   {
     "id": "19c62e5d-b566-42c8-a0ab-a145c0e67c9e",
@@ -26,9 +26,9 @@
     ],
     "system_prompt": "You're a world-class content writer.",
     "date_created": "2025-05-07T00:30:52.830Z",
-    "user_created": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a",
-    "date_updated": "2025-06-23T02:09:00.129Z",
-    "user_updated": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a"
+    "user_created": null,
+    "date_updated": null,
+    "user_updated": null
   },
   {
     "id": "3b5d8ca2-3418-406f-8f14-46010521a65d",
@@ -44,8 +44,8 @@
     ],
     "system_prompt": "You're an e-commerce expert. You write product descriptions that sell a ton of product.",
     "date_created": "2025-05-07T00:30:52.830Z",
-    "user_created": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a",
-    "date_updated": "2025-06-23T02:09:00.134Z",
-    "user_updated": "4f6d5bc5-f02c-48b8-a455-bf0b45e93a2a"
+    "user_created": null,
+    "date_updated": null,
+    "user_updated": null
   }
 ]
