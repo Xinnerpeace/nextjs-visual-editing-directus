@@ -267,10 +267,10 @@
   },
   "visual_editor_urls": [
     {
-      "url": "http://localhost:3000?visual-editing=true"
+      "url": "http://120.26.194.115:3000?visual-editing=true"
     },
     {
-      "url": "http://localhost:3000/blog?visual-editing=true"
+      "url": "http://120.26.194.115:3000/blog?visual-editing=true"
     }
   ]
 }
