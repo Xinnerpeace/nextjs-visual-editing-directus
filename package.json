@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "directus:template": {
-    "name": "CMS",
+    "name": "My Template",
     "description": "A ready-to-use CMS with block builder, visual editing, and integration with your favorite framework. ",
     "template": "./directus/template",
     "frontends": {
