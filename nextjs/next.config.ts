@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next';
+import type { Configuration as WebpackConfig } from 'webpack';
 import initializeBundleAnalyzer from '@next/bundle-analyzer';
 import { generateRedirects } from './src/lib/redirects';
 
@@ -19,8 +20,20 @@ const ContentSecurityPolicy = `
 `;
 
 const nextConfig: NextConfig = {
-	webpack: (config) => {
+	webpack: (config: WebpackConfig, { isServer }: { isServer: boolean }) => {
 		config.cache = false;
+
+		if (!isServer) {
+			config.resolve = {
+				...config.resolve,
+				fallback: {
+					...config.resolve?.fallback,
+					crypto: false,  // 使用浏览器内置的 crypto
+					stream: require.resolve('stream-browserify'),
+					buffer: require.resolve('buffer'),
+				},
+			};
+		}
 
 		return config;
 	},
