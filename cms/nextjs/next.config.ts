@@ -21,15 +21,8 @@ const ContentSecurityPolicy = `
 const nextConfig: NextConfig = {
 	webpack: (config) => {
 		config.cache = false;
-		config.resolve.fallback = {
-			...config.resolve.fallback,
-			crypto: require.resolve('crypto-browserify'),
-		};
+
 		return config;
-	},
-	experimental: {
-		serverActions: true,
-		serverComponents: true,
 	},
 	images: {
 		dangerouslyAllowSVG: true,
@@ -67,6 +60,7 @@ const nextConfig: NextConfig = {
 	},
 	async redirects() {
 		const redirects = await generateRedirects();
+
 		return redirects;
 	},
 };
