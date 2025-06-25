@@ -15,7 +15,7 @@ const ContentSecurityPolicy = `
     media-src *;
     connect-src *;
     font-src 'self' data:;
-    frame-ancestors 'self' http://120.26.194.115:3000 ${process.env.NEXT_PUBLIC_DIRECTUS_URL};
+    frame-ancestors 'self' https://120.26.194.115:3000 ${process.env.NEXT_PUBLIC_DIRECTUS_URL};
 `;
 
 const nextConfig: NextConfig = {
