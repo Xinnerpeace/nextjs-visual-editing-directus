@@ -33,8 +33,14 @@ const nextConfig: NextConfig = {
 				pathname: '/assets/**',
 			},
 			{
-				protocol: 'http',
+				protocol: 'https',
 				hostname: 'new-dragon.com',
+				port: '8055',
+				pathname: '/assets/**',
+			},
+			{
+				protocol: 'http',
+				hostname: 'localhost',
 				port: '8055',
 				pathname: '/assets/**',
 			},
