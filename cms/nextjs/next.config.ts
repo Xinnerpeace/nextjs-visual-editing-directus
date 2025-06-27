@@ -15,7 +15,7 @@ const ContentSecurityPolicy = `
     media-src *;
     connect-src *;
     font-src 'self' data:;
-    frame-ancestors 'self' https://yu.new-dragon.com ${process.env.NEXT_PUBLIC_DIRECTUS_URL};
+    frame-ancestors 'self' https://www.newdragon.ink ${process.env.NEXT_PUBLIC_DIRECTUS_URL};
 `;
 
 const nextConfig: NextConfig = {
@@ -34,7 +34,7 @@ const nextConfig: NextConfig = {
 			},
 			{
 				protocol: 'https',
-				hostname: 'new-dragon.com',
+				hostname: 'newdragon.ink',
 				port: '8055',
 				pathname: '/assets/**',
 			},
