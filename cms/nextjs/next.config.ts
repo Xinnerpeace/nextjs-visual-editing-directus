@@ -34,7 +34,7 @@ const nextConfig: NextConfig = {
 			},
 			{
 				protocol: 'https',
-				hostname: 'newdragon.ink',
+				hostname: '120.26.194.115',
 				port: '8055',
 				pathname: '/assets/**',
 			},
