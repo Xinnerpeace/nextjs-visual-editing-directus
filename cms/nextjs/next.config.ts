@@ -33,7 +33,7 @@ const nextConfig: NextConfig = {
 				pathname: '/assets/**',
 			},
 			{
-				protocol: 'https',
+				protocol: 'http',
 				hostname: '120.26.194.115',
 				port: '8055',
 				pathname: '/assets/**',
