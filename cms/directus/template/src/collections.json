@@ -924,7 +924,7 @@
       "sort": 2,
       "group": "website",
       "collapse": "open",
-      "preview_url": "http://www.newdragon.ink/blog/{{slug}}?preview=true&version={{$version}}",
+      "preview_url": "https://www.newdragon.ink/blog/{{slug}}?preview=true&version={{$version}}",
       "versioning": true
     },
     "schema": {
