@@ -13295,14 +13295,14 @@
             "icon": "arrow_outward",
             "type": "normal",
             "actionType": "link",
-            "url": "http://localhost:3000/blog/{{slug}}"
+            "url": "https://www.newdragon.ink/blog/{{slug}}"
           },
           {
             "label": "Open in Visual Editor",
             "icon": "edit",
             "type": "normal",
             "actionType": "link",
-            "url": "/admin/visual/http://localhost:3000/blog/{{slug}}?visual-editing=true"
+            "url": "/admin/visual/https://www.newdragon.ink/blog/{{slug}}?visual-editing=true"
           },
           {
             "label": "Request Review",
@@ -13777,14 +13777,14 @@
             "icon": "arrow_outward",
             "type": "normal",
             "actionType": "link",
-            "url": "http://localhost:3000{{permalink}}"
+            "url": "https://www.newdragon.ink{{permalink}}"
           },
           {
             "label": "Open in Visual Editor",
             "icon": "edit",
             "type": "normal",
             "actionType": "link",
-            "url": "/admin/visual/http://localhost:3000{{permalink}}?visual-editing=true"
+            "url": "/admin/visual/https://www.newdragon.ink{{permalink}}?visual-editing=true"
           },
           {
             "label": "Duplicate Page",
