@@ -845,7 +845,7 @@
           "blocks.background"
         ],
         "note": "Dynamic page builder",
-        "preview_url": "http://localhost:3000{{permalink}}?preview=true&version={{$version}}",
+        "preview_url": "https://www.newdragon.ink{{permalink}}?preview=true&version={{$version}}",
         "singleton": false,
         "sort": 1,
         "sort_field": "sort",
@@ -882,7 +882,7 @@
           "seo"
         ],
         "note": "Individual blog posts",
-        "preview_url": "http://localhost:3000/blog/{{slug}}?preview=true&version={{$version}}",
+        "preview_url": "https://www.newdragon.ink/blog/{{slug}}?preview=true&version={{$version}}",
         "singleton": false,
         "sort": 2,
         "sort_field": "sort",
@@ -12322,14 +12322,14 @@
               "icon": "arrow_outward",
               "label": "View on Website",
               "type": "normal",
-              "url": "http://localhost:3000{{permalink}}"
+              "url": "https://www.newdragon.ink{{permalink}}"
             },
             {
               "actionType": "link",
               "icon": "edit",
               "label": "Open in Visual Editor",
               "type": "normal",
-              "url": "/admin/visual/http://localhost:3000{{permalink}}?visual-editing=true"
+              "url": "/admin/visual/https://www.newdragon.ink{{permalink}}?visual-editing=true"
             },
             {
               "actionType": "flow",
@@ -13385,14 +13385,14 @@
               "icon": "arrow_outward",
               "label": "View on Website",
               "type": "normal",
-              "url": "http://localhost:3000/blog/{{slug}}"
+              "url": "https://www.newdragon.ink/blog/{{slug}}"
             },
             {
               "actionType": "link",
               "icon": "edit",
               "label": "Open in Visual Editor",
               "type": "normal",
-              "url": "/admin/visual/http://localhost:3000/blog/{{slug}}?visual-editing=true"
+              "url": "/admin/visual/https://www.newdragon.ink/blog/{{slug}}?visual-editing=true"
             },
             {
               "actionType": "flow",
