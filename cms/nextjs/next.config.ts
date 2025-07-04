@@ -15,7 +15,7 @@ const ContentSecurityPolicy = `
     media-src *;
     connect-src *;
     font-src 'self' data:;
-    frame-ancestors 'self' https://www.newdragon.ink ${process.env.NEXT_PUBLIC_DIRECTUS_URL};
+    frame-ancestors 'self' http://120.26.194.115:3000 ${process.env.NEXT_PUBLIC_DIRECTUS_URL};
 `;
 
 const nextConfig: NextConfig = {
@@ -30,6 +30,12 @@ const nextConfig: NextConfig = {
 			{
 				protocol: 'https',
 				hostname: process.env.NEXT_PUBLIC_DIRECTUS_URL?.split('//')[1] || '',
+				pathname: '/assets/**',
+			},
+			{
+				protocol: 'http',
+				hostname: '120.26.194.115',
+				port: '8055',
 				pathname: '/assets/**',
 			},
 			{
