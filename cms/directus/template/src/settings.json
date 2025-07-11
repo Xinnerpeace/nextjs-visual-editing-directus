@@ -267,10 +267,10 @@
   },
   "visual_editor_urls": [
     {
-      "url": "https://www.newdragon.ink?visual-editing=true"
+      "url": "https://ink-amber.vercel.app/?visual-editing=true"
     },
     {
-      "url": "https://www.newdragon.ink/blog?visual-editing=true"
+      "url": "https://ink-amber.vercel.app/blog?visual-editing=true"
     }
   ]
 }
